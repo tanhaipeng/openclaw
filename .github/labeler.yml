@@ -135,6 +135,10 @@
           - "src/gateway/protocol/**"
           - "src/gateway/server-methods/chat.ts"
           - "src/infra/control-ui-assets.ts"
+"app: tauri-dashboard":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "apps/tauri-dashboard/**"
 
 "gateway":
   - changed-files:

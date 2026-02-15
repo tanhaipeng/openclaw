@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "OpenClaw Dashboard",
+  "version": "0.1.0",
+  "identifier": "ai.openclaw.dashboard",
+  "build": {
+    "beforeDevCommand": "",
+    "devUrl": "http://127.0.0.1:18789/",
+    "beforeBuildCommand": "",
+    "frontendDist": "http://127.0.0.1:18789/"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "main",
+        "create": false,
+        "title": "OpenClaw Dashboard",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": ["icons/icon.png"],
+    "category": "DeveloperTool",
+    "shortDescription": "OpenClaw dashboard client",
+    "longDescription": "Desktop client that loads the OpenClaw gateway dashboard at http://127.0.0.1:18789/"
+  },
+  "plugins": {}
+}
