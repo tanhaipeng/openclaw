@@ -137,3 +137,5 @@ docs/superpowers
 
 # Deprecated changelog fragment workflow
 changelog/fragments/
+
+ui/src-tauri/target
