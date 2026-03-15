@@ -30,8 +30,7 @@
     "macOS": {
       "signingIdentity": "Developer ID Application: YOUR_NAME (TEAM_ID)",
       "entitlements": null,
-      "hardenedRuntime": true,
-      "gatekeeperAssess": false
+      "hardenedRuntime": true
     }
   },
   "plugins": { "updater": { "active": false } }
