@@ -23,6 +23,16 @@
     ],
     "security": { "csp": null }
   },
-  "bundle": { "active": true, "targets": "all", "icon": ["icons/icon.png"] },
-  "plugins": {}
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": ["icons/icon.png"],
+    "macOS": {
+      "signingIdentity": "Developer ID Application: YOUR_NAME (TEAM_ID)",
+      "entitlements": null,
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false
+    }
+  },
+  "plugins": { "updater": { "active": false } }
 }
